@@ -26,3 +26,20 @@ using namespace std;
             cout<<"Enter employee gender"<<endl;
             cin>>gender;
         }
+
+          void computeTaxRate(){
+            if(gender == "female"){
+                if(basicSalary < 15000.00){
+                    taxRate = 12.00/100.00;
+                }else{
+                    taxRate= 14.00/100.00;
+                }
+            }else{
+                if(basicSalary < 14000.00){
+                    taxRate = 13.00/100.00;
+                }
+                else{
+                    taxRate = 15.00/100.00;
+                }
+            }
+        }
