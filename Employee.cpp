@@ -51,3 +51,15 @@ using namespace std;
         void computeNetSalary(){
             netSalary = basicSalary - taxAmount;
         }
+
+               void displayDetails(){
+               cout<<"------------------------"<<endl; 
+          cout<<"Name: "<<name<<endl;
+          cout<<"Gender: "<<gender<<endl;
+          cout<<"Basic Salary: "<<basicSalary<<endl;
+          cout<<"Allowances: "<<allowances<<endl;
+          cout<<"Net Salary: "<<netSalary<<endl;
+          cout<<"Tax Rate: "<<taxRate<<endl;
+          cout<<"Tax Amount: "<<taxAmount<<endl;          
+         
+        }
