@@ -47,3 +47,7 @@ using namespace std;
         void computeTaxAmount(){
             taxAmount = taxRate*(basicSalary+allowances);
         }
+
+        void computeNetSalary(){
+            netSalary = basicSalary - taxAmount;
+        }
