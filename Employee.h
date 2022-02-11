@@ -14,7 +14,7 @@ class Employee {
         void computeTaxAmount();
         void computeNetSalary();
         void displayDetails();
-
-
 };
+
+#endif
 
