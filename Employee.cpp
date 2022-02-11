@@ -43,3 +43,7 @@ using namespace std;
                 }
             }
         }
+
+        void computeTaxAmount(){
+            taxAmount = taxRate*(basicSalary+allowances);
+        }
