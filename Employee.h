@@ -7,7 +7,13 @@ class Employee {
         string name,gender;
         int basicSalary,allowance,netSalary;
         float taxRate, taxAmount;
-
+    
+    public:
+        void getDetails();
+        void computeTaxRate();
+        void computeTaxAmount();
+        void computeNetSalary();
+        void displayDetails();
 
 
 };
